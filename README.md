@@ -1,6 +1,6 @@
 # Project Link - Senior Housing Companion
 
-A platform connecting senior citizens with potential roommates, fostering intergenerational living arrangements and companionship.
+A platform connecting senior citizens with potential roommates, fostering intergenerational living arrangements and companionship. We hope this platform can also allow people to explore more affordable ways to live.
 
 ## Features
 
