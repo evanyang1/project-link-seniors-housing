@@ -1,0 +1,30 @@
+{
+  "name": "project-link-seniors-housing",
+  "version": "1.0.0",
+  "description": "A platform connecting senior citizens with potential roommates, fostering intergenerational living arrangements and companionship. We hope this platform can also allow people to explore more affordable ways to live.",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "nodemon index.js",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanyang1/project-link-seniors-housing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evanyang1/project-link-seniors-housing/issues"
+  },
+  "homepage": "https://github.com/evanyang1/project-link-seniors-housing#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.10"
+  }
+}
