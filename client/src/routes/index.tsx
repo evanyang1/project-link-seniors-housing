@@ -1,4 +1,5 @@
-import { createFileRoute } from "@tanstack/react-router";
+import React from "react";
+import { createFileRoute, Link } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({
   component: RouteComponent,
@@ -25,12 +26,12 @@ function RouteComponent() {
             Browse available listings, connect with trusted hosts, and join a
             supportive community.
           </p>
-          <a
-            href="#"
+          <Link
+            to="/login"
             className="inline-block bg-gray-900 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition"
           >
             Get Started
-          </a>
+          </Link>
         </div>
       </main>
       <footer className="mt-16 text-gray-400 text-sm">
