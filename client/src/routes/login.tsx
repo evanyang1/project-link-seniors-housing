@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/login")({
   component: LoginComponent,
@@ -89,9 +89,12 @@ function LoginComponent() {
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             Or{" "}
-            <a href="#" className="font-medium text-sky-600 hover:text-sky-500">
+            <Link
+              to="/createAccount"
+              className="font-medium text-sky-600 hover:text-sky-500"
+            >
               create a new account
-            </a>
+            </Link>
           </p>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
